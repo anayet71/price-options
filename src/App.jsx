@@ -1,7 +1,8 @@
 
-import BarChart from "./Components/LineChart/BarChart/BarChart"
+import BarChart from "./Components/BarChart/BarChart"
 import LineChart from "./Components/LineChart/LineChart"
 import Navbar from "./Components/Navbar/Navbar"
+import Phones from "./Components/Phones/Phones"
 import PriceOptions from "./Components/PriceOptions/PriceOptions"
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
      <h1 className="text-7xl bg-red-600">Price option</h1>
      <PriceOptions></PriceOptions>
     <LineChart></LineChart>
-    <BarChart></BarChart>
+    {/* <BarChart></BarChart> */}
+    <Phones></Phones>
     </>
   )
 }
